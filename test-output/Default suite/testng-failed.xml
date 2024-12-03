@@ -6,7 +6,8 @@
       <class name="create_organization.create">
         <methods>
           <include name="browseropen"/>
-          <include name="add_organization"/>
+          <include name="browserclose"/>
+          <include name="assign_setup"/>
         </methods>
       </class> <!-- create_organization.create -->
     </classes>
