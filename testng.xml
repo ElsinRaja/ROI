@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="create_organization.create"/>
+      <class name="neshbase.Functionalflows"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

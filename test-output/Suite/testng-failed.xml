@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="create_organization.create">
+      <class name="neshbase.Functionalflows">
         <methods>
           <include name="browseropen"/>
-          <include name="browserclose"/>
           <include name="new_user"/>
+          <include name="select_org_type"/>
         </methods>
-      </class> <!-- create_organization.create -->
+      </class> <!-- neshbase.Functionalflows -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

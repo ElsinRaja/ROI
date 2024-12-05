@@ -1,61 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-04T00:23:24 IST" name="Suite" finished-at="2024-12-04T00:25:06 IST" duration-ms="101787">
+  <suite started-at="2024-12-04T23:41:48 IST" name="Default suite" finished-at="2024-12-04T23:42:06 IST" duration-ms="18570">
     <groups>
     </groups>
-    <test started-at="2024-12-04T00:23:24 IST" name="Test" finished-at="2024-12-04T00:25:06 IST" duration-ms="101787">
-      <class name="create_organization.create">
-        <test-method is-config="true" signature="browseropen()[pri:0, instance:create_organization.create@17d88132]" started-at="2024-12-04T00:23:25 IST" name="browseropen" finished-at="2024-12-04T00:23:42 IST" duration-ms="17168" status="PASS">
+    <test started-at="2024-12-04T23:41:48 IST" name="Default test" finished-at="2024-12-04T23:42:06 IST" duration-ms="18570">
+      <class name="neshbase.Functionalflows">
+        <test-method is-config="true" signature="browseropen()[pri:0, instance:neshbase.Functionalflows@16eccb2e]" started-at="2024-12-04T23:41:48 IST" name="browseropen" finished-at="2024-12-04T23:42:01 IST" duration-ms="13063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browseropen -->
-        <test-method signature="add_organization()[pri:0, instance:create_organization.create@17d88132]" started-at="2024-12-04T00:23:42 IST" name="add_organization" finished-at="2024-12-04T00:23:47 IST" duration-ms="5114" status="PASS">
+        <test-method signature="edit_user()[pri:0, instance:neshbase.Functionalflows@16eccb2e]" started-at="2024-12-04T23:42:01 IST" name="edit_user" finished-at="2024-12-04T23:42:06 IST" duration-ms="5258" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- add_organization -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:create_organization.create@17d88132]" started-at="2024-12-04T00:23:47 IST" name="browserclose" finished-at="2024-12-04T00:24:03 IST" duration-ms="15843" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="browseropen()[pri:0, instance:create_organization.create@17d88132]" started-at="2024-12-04T00:24:03 IST" name="browseropen" finished-at="2024-12-04T00:24:08 IST" duration-ms="5127" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browseropen -->
-        <test-method signature="assign_setup()[pri:0, instance:create_organization.create@17d88132]" started-at="2024-12-04T00:24:08 IST" name="assign_setup" finished-at="2024-12-04T00:24:27 IST" duration-ms="18503" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- assign_setup -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:create_organization.create@17d88132]" started-at="2024-12-04T00:24:27 IST" name="browserclose" finished-at="2024-12-04T00:24:31 IST" duration-ms="4525" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="browseropen()[pri:0, instance:create_organization.create@17d88132]" started-at="2024-12-04T00:24:31 IST" name="browseropen" finished-at="2024-12-04T00:24:37 IST" duration-ms="5559" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browseropen -->
-        <test-method signature="new_user()[pri:0, instance:create_organization.create@17d88132]" started-at="2024-12-04T00:24:37 IST" name="new_user" finished-at="2024-12-04T00:24:42 IST" duration-ms="5494" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- new_user -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:create_organization.create@17d88132]" started-at="2024-12-04T00:24:42 IST" name="browserclose" finished-at="2024-12-04T00:24:51 IST" duration-ms="9335" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-        <test-method is-config="true" signature="browseropen()[pri:0, instance:create_organization.create@17d88132]" started-at="2024-12-04T00:24:52 IST" name="browseropen" finished-at="2024-12-04T00:24:56 IST" duration-ms="4967" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browseropen -->
-        <test-method signature="select_org_type()[pri:0, instance:create_organization.create@17d88132]" started-at="2024-12-04T00:24:56 IST" name="select_org_type" finished-at="2024-12-04T00:25:02 IST" duration-ms="5510" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- select_org_type -->
-        <test-method is-config="true" signature="browserclose()[pri:0, instance:create_organization.create@17d88132]" started-at="2024-12-04T00:25:02 IST" name="browserclose" finished-at="2024-12-04T00:25:06 IST" duration-ms="4268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserclose -->
-      </class> <!-- create_organization.create -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- edit_user -->
+      </class> <!-- neshbase.Functionalflows -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
