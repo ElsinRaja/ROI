@@ -6,8 +6,9 @@
       <class name="neshbase.Functionalflows">
         <methods>
           <include name="browseropen"/>
-          <include name="new_user"/>
-          <include name="select_org_type"/>
+          <include name="browserclose"/>
+          <include name="editOrganization"/>
+          <include name="deleteOrganization"/>
         </methods>
       </class> <!-- neshbase.Functionalflows -->
     </classes>

@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\elsin\AppData\Local\Temp\testng-eclipse-40992323\testng-customsuite.xml</span>
+                    <span>C:\Users\elsin\AppData\Local\Temp\testng-eclipse-1640657473\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="neshbase.Functionalflows" class="method navigator-link" hash-for-method="edit_user">edit_user</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="neshbase.Functionalflows" class="method navigator-link" hash-for-method="editUser">editUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,9 +126,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="edit_user">
-                  </a> <!-- edit_user -->
-                  <span class="method-name">edit_user</span>
+                  <a name="editUser">
+                  </a> <!-- editUser -->
+                  <span class="method-name">editUser</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +136,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\elsin\AppData\Local\Temp\testng-eclipse-40992323\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\elsin\AppData\Local\Temp\testng-eclipse-1640657473\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -147,7 +147,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;neshbase.Functionalflows&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;edit_user&quot;/&gt;
+          &lt;include name=&quot;editUser&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- neshbase.Functionalflows --&gt;
     &lt;/classes&gt;
@@ -191,14 +191,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'edit_user')
+data.setCell(0, 1, 'editUser')
 data.setCell(0, 2, 'neshbase.Functionalflows')
-data.setCell(0, 3, 5258);
+data.setCell(0, 3, 16974);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -213,19 +213,25 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">7 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">neshbase.Functionalflows</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">add_organization</span>
+                <span class="ignored-method-name">selectOrgtype</span>
                 <br/>
-                <span class="ignored-method-name">select_org_type</span>
+                <span class="ignored-method-name">editOrganization</span>
                 <br/>
-                <span class="ignored-method-name">new_user</span>
+                <span class="ignored-method-name">createOrganization</span>
                 <br/>
-                <span class="ignored-method-name">assign_setup</span>
+                <span class="ignored-method-name">logout</span>
+                <br/>
+                <span class="ignored-method-name">deleteUser</span>
+                <br/>
+                <span class="ignored-method-name">assignSetup</span>
+                <br/>
+                <span class="ignored-method-name">createUser</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -238,14 +244,18 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">neshbase.Functionalflows</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
+              <div class="configuration-class before">
                 <span class="method-name">browseropen</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">edit_user</span>
-                <span class="method-start">13220 ms</span>
+                <span class="method-name">editUser</span>
+                <span class="method-start">15174 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">32318 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

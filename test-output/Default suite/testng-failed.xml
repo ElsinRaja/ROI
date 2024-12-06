@@ -6,7 +6,8 @@
       <class name="neshbase.Functionalflows">
         <methods>
           <include name="browseropen"/>
-          <include name="edit"/>
+          <include name="browserclose"/>
+          <include name="editOrganization"/>
         </methods>
       </class> <!-- neshbase.Functionalflows -->
     </classes>
